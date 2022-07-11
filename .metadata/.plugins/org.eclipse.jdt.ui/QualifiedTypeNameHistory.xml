@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="metodo.MetodosWeb"/>
+    <fullyQualifiedTypeName name="java.security.DrbgParameters.NextBytes"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.json.StaticInitializerCoercer"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,46 @@
+package util;
+
+
+
+import static org.apache.commons.lang3.RandomUtils.nextInt;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
+
+public class RandomUtil {
+	public static int number() {
+		int number = nextInt(2, 14);
+		return number;
+	}
+
+	public static int number1() {
+		int number = nextInt(2, 5);
+		return number;
+	}
+	
+	public static int number3() {
+		int number = nextInt(0, 4);
+		int[] num = new int[] {1000, 1200, 1500, 1800, 2000};
+		num.toString();
+		return num[number];
+	}
+	public static double number4() {
+		int number = nextInt(0, 4);
+		double[] num = new double[] {1.0, 1.2, 1.5, 1.8, 2.0};
+		num.toString();
+		return num[number];
+	}
+	public String fabricacao() {
+		Date hoje = new Date();
+		SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
+		Calendar mes = Calendar.getInstance();
+		mes.add(Calendar.MONTH, - number1());
+		hoje = mes.getTime();
+		return sdf.format(hoje);
+	}
+		
+}
+
+

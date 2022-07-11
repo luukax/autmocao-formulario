@@ -1,0 +1,12 @@
+package util;
+
+import com.github.javafaker.Faker;
+
+public class FakerJava {
+	Faker faker = new Faker();
+	
+	public String firstName = faker.name().firstName();
+	public String lastName = faker.name().lastName();
+	
+
+}

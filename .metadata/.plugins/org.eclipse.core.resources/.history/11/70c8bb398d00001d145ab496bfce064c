@@ -1,0 +1,15 @@
+package steps;
+
+import io.cucumber.java.en.Given;
+import metodo.MetodosWeb;
+
+public class StepsFeatureFomulario {
+	MetodosWeb metodo = new MetodosWeb();
+
+@Given("que eu esteja no {string}")
+public void que_eu_esteja_no(String string) {
+   metodo.abrirBrowser(string);
+    
+}
+
+}

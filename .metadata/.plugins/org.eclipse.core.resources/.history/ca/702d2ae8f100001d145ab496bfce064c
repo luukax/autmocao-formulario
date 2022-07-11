@@ -1,0 +1,21 @@
+package util;
+
+
+
+import static org.apache.commons.lang3.RandomUtils.*;
+
+
+public class RandomUtil {
+	public static int number() {
+		int number = nextInt(2, 14);
+		return number;
+	}
+
+	public static int number1() {
+		int number = nextInt(1, 4);
+		return number;
+	}
+	
+}
+
+

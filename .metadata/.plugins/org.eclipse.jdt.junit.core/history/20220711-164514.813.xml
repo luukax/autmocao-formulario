@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="br.com.automated" project="br.com.automated" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="runner.Run" time="8.04">
+    <testsuite name="Title of your feature" time="8.04">
+      <testcase name="Title of your scenario" classname="Title of your feature" time="8.04">
+        <error>java.lang.Error: Unresolved compilation problem: 
+	Unhandled exception type IOException
+&#13;
+	at steps.StepsFeatureFomulario.valido_redirecionamento(StepsFeatureFomulario.java:176)&#13;
+	at ✽.valido redirecionamento: "Enter Product Data"(file:///C:/Users/LUCAS/Projetos/Projeto-teste-aumatomacao.web/br.com.automated/./src/test/resources/formulario.feature:39)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

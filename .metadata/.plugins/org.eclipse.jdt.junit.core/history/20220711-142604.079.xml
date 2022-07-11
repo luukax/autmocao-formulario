@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Run" project="br.com.automated" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="runner.Run" time="17.83">
+    <testsuite name="Title of your feature" time="17.83">
+      <testcase name="Title of your scenario" classname="Title of your feature" time="17.83">
+        <failure>
+          <expected>Select Price Option</expected>
+          <actual>Send Quote</actual>
+          org.junit.ComparisonFailure: expected:&lt;Se[lect Price Option]&gt; but was:&lt;Se[nd Quote]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:146)&#13;
+	at metodo.MetodosWeb.validarTitle(MetodosWeb.java:54)&#13;
+	at steps.StepsFeatureFomulario.valido_redirecionamento_para_title(StepsFeatureFomulario.java:231)&#13;
+	at ✽.valido redirecionamento para (title:) "Send Quote"(file:///C:/Users/LUCAS/Projetos/Projeto-teste-aumatomacao.web/br.com.automated/./src/test/resources/formulario.feature:50)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

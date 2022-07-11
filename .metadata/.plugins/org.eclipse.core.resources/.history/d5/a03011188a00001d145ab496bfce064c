@@ -1,0 +1,14 @@
+package util;
+
+import org.apache.commons.lang3.RandomUtils;
+
+public class RandomUtil {
+	
+	public static int aleaoterio() {
+		int numero = nextInt(1,6);
+		return numero;
+	}
+	
+}
+
+

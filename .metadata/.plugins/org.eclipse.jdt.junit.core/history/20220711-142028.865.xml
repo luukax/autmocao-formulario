@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Run" project="br.com.automated" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="runner.Run" time="19.204">
+    <testsuite name="Title of your feature" time="19.204">
+      <testcase name="Title of your scenario" classname="Title of your feature" time="19.204">
+        <failure>java.lang.AssertionError: expected:&lt;By.xpath: //*[text()='Sending e-mail success!']&gt; but was:&lt;Sending e-mail success!&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:89)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:835)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:120)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:146)&#13;
+	at steps.StepsFeatureFomulario.valido_a_mensagem(StepsFeatureFomulario.java:273)&#13;
+	at ✽.valido a mensagem: "Sending e-mail success!"(file:///C:/Users/LUCAS/Projetos/Projeto-teste-aumatomacao.web/br.com.automated/./src/test/resources/formulario.feature:58)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

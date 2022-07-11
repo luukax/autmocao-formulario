@@ -1,0 +1,29 @@
+package steps;
+
+import elementos.ElementosWeb;
+import io.cucumber.java.en.Given;
+import metodo.MetodosWeb;
+
+public class StepsFeatureFomulario {
+	MetodosWeb metodo = new MetodosWeb();
+	ElementosWeb elem = new ElementosWeb();
+
+@Given("que eu esteja no {string}")
+public void que_eu_esteja_no(String string) {
+   metodo.abrirBrowser(string);    
+}
+
+@Given("seleciono a primeira opcao no campo MAKE: Audi")
+public void seleciono_a_primeira_opcao_no_campo_make_audi() {
+	metodo.click(elem.getMarca());
+}
+
+@Given("seleciono a primeira opcao no campo Model: Scooter")
+public void seleciono_a_primeira_opcao_no_campo_model_scooter() {
+	
+			
+     
+}
+
+
+}

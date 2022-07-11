@@ -1,0 +1,59 @@
+#Author: your.email@your.domain.com
+
+@
+Feature: Title of your feature
+  I want to use this template for my feature file
+
+  @tag1
+  Scenario: Title of your scenario
+    Given que eu esteja no "http://sampleapp.tricentis.com/101/app.php"
+     And seleciono a primeira opcao no campo MAKE: Audi
+    And seleciono a primeira opcao no campo Model: Scooter
+    And preencho o campo informando a cilindrada: "1800"
+    And preencho o campo informando o desempenho do motor: "1.8"
+    And preencho o campo informando a data de fabricacao: "10/10/2015"
+    And preencho o campo informando o numero de assentos: "1"
+    And seleciono a opcao de RIGHT HAND DRIVER: Yes
+    And seleciono o numero de assentos: 1
+    And seleciono o tipo de combustivel: Gas
+    And preencho o campo informando peso: "500"
+    And preencho o campo informando peso total: "650"
+    And preencho o campo informando tabela de preco: "5000"
+    And preencho o campo informando a placa: "bra-2022"
+    And preencho o campo informando o km anual: "20000"
+    And clico em next
+    And valido redirecionamento para: "Enter Insurant Data"
+    And preencho o campo informando primeiro nome: "Mario"
+    And preencho o campo informando sobrenome: "Mariano"
+    And preencho o campo informando a data de nascimento: "11/19/1980"
+    And preencho o campo informando o genero: Male
+    And preencho o campo informando a Rua: "rua da qualidade"
+    And preencho o campo informando o pais: Brasil
+    And preencho o campo informando o codigo postal: "09895351"
+    And preencho o campo informando a cidade: "São paulo"
+    And preencho o campo informando o tipo de ocupacao: Employee
+    And preencho o campo informando o hobbie: Speeging
+    And preencho o campo informando o site: "algumacoisa.com"
+    And carrego a imagem do veiculo
+    And clico em next Enter Product Data
+    And valido redirecionamento: "Enter Product Data"
+    And preencho a data de inicio: 
+    And seleciono a soma do seguro
+    And seleciono a avaliacao de merito
+    And seleciono a opcao de seguro de danos
+    And seleciono o tipo de protudo: Euro Protection
+    And seleciono a apcao de carro cortesia: yes
+    And clico em next para ir Select Price Option
+    And valido a title Select Price Option: "Select Price Option"
+    And seleciono a opcao: Gold
+    And clico em: Next Send Quote
+    And valido redirecionamento para (title:) "Send Quote"
+    And preencho o campo informando o email: "algumacoisa@test.com"
+    And preencho o campo informando o telefone: "5511950001111"
+    And preencho o campo informando o nome de usuario: "QAzito"
+    And preencho o campo informando a senha: "LuK@zX2022"
+    And preencho o campo informando a confimacao de senha: "LuK@zX2022"
+    And adiciono um comentario: "Realizando um teste automatizado"
+    When clico em: Send 
+    Then valido a mensagem: "Sending e-mail success!"
+   

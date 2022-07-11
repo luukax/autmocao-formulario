@@ -1,0 +1,19 @@
+package util;
+
+
+
+import static org.apache.commons.lang3.RandomUtils.*;
+
+
+public class RandomUtil {
+	
+	
+	
+	public int number() {
+		int number = nextInt(2, 14);
+		return number;
+	}
+
+}
+
+

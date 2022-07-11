@@ -1,0 +1,22 @@
+package metodo;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class MetodosWeb {
+WebDriver driver;
+
+
+public void abrirBrowser(String website) {
+	try {
+		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get(website);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);	
+	} catch (Exception e) {
+		System.out.println(">>>>>ERRO AO ABRIR NAVEGADOR<<<<<");
+	}	
+}
+}
